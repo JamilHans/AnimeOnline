@@ -11,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageView_anime_image"
-            android:src="@mipmap/ic_launcher_round"
             android:layout_width="match_parent"
             android:layout_height="194dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textView_anime_type"
@@ -33,13 +34,13 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:text="Anime" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/textView_anime_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Conboy"
-                android:textAppearance="?attr/textAppearanceHeadline6"
-                android:gravity="center"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_anime_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Conboy"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
 
 
     </LinearLayout>
